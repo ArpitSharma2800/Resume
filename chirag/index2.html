@@ -1,173 +1,231 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
-  integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
 
-    <title>Document</title>
+    <title>Chirag Gomber</title>
     <style>
-        body{
+        body {
             background: linear-gradient(180deg, #3b3b3b 00%, #ffffff 20%);
             height: 100%;
             font-family: 'Montserrat';
         }
-        .main{
+
+        .main {
             padding: 20px;
         }
-        .card{
+
+        .card {
             margin: auto;
             margin-top: 20px;
-            box-shadow: 3px 11px 62px -26px rgba(0,0,0,0.67);
+            box-shadow: 3px 11px 62px -26px rgba(0, 0, 0, 0.67);
             max-width: 65%;
         }
-        .fas{
+
+        .fas {
             font-size: 30px;
         }
-        .fab{
+
+        .fab {
             font-size: 30px;
         }
+
         .vl {
             border-left: 6px solid rgb(0, 0, 0);
-            margin-left:20% ;
+            margin-left: 20%;
             margin-top: 50px;
             padding: 30px;
         }
-        .details{
+
+        .details {
             margin-top: 20px;
         }
-        .logo{
+
+        .logo {
             margin-top: 50px;
         }
+
         @media only screen and (max-width: 767px) {
-            body{
-            background: linear-gradient(180deg, #3b3b3b 0%, #ffffff 10%);
-            height: 100%;
-        }
+            body {
+                background: linear-gradient(180deg, #3b3b3b 0%, #ffffff 10%);
+                height: 100%;
+            }
+
             .vl {
-            border-left: 6px solid rgb(0, 0, 0);
-            margin-left:20px ;
-            padding: 15px;
-        }
-        .card{
-            margin: auto;
-            margin-top: 60px;
-            box-shadow: 3px 11px 62px -26px rgb(253, 253, 253);
-            max-width: 95%;
-        }
-        .card img{
-            border-radius: 50%;
-            margin-top: -20%;
-            margin-left: 28%;
-            height: 150px;
-            width: 150px;
-        }
-        .logo{
-            margin-left: 15px;
-            margin-top: -10px;
-        }
+                border-left: 6px solid rgb(0, 0, 0);
+                margin-left: 20px;
+                padding: 15px;
+            }
+
+            .card {
+                margin: auto;
+                margin-top: 60px;
+                box-shadow: 3px 11px 62px -26px rgb(253, 253, 253);
+                max-width: 95%;
+            }
+
+            .card img {
+                border-radius: 50%;
+                margin-top: -20%;
+                margin-left: 28%;
+                height: 150px;
+                width: 150px;
+            }
+
+            .logo {
+                margin-left: 15px;
+                margin-top: -10px;
+            }
 
         }
     </style>
 </head>
-<body>
-<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-<script>
-    AOS.init({
-        duration: 400, // values from 0 to 3000, with step 50ms
-        easing: 'ease',
-    })
-</script>
 
-<div class="main">
-<div class="card mb-3 animated fadeIn" style="">
-    <div class="row no-gutters">
-      <div class="col-md-4">
-        <img src="/chirag/chiragg-min.jpg" class="card-img" alt="loading" >
-      </div>
-      <div class="col-md-8">
-        <div class="card-body">
-          <h1 class="card-title" style="font-weight: bolder;">Chirag Gomber</h1>
-          <p class="card-text">SIH 2020 Finalists | Research Intern at National University of Singapore | Artificial Intelligence and Machine Learning enthusiast | Open Source developer<br><br>
-            <a href="mailto:chirag.11gomber4@gmail.com?subject=subject"><u>Email: chirag.11gomber4@gmail.com</u></a></p>
-          <p class="card-text logo"><a href="https://www.linkedin.com/in/chiraggomber11/" class="fab fa-linkedin-in" style="padding: 20px; color: black;"></a><a href="https://github.com/ArtistBanda" class="fab fa-github" style="padding: 20px; color: black;"></a><a href="https://www.hackerrank.com/chirag_11gomber4" class="fab fa-hackerrank" style="padding: 20px; color: black;"></a></a><a href="https://www.instagram.com/artistbanda/" class="fab fa-instagram" style="padding: 20px; color: black;"></a></a></p>
+<body>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 400, // values from 0 to 3000, with step 50ms
+            easing: 'ease',
+        })
+    </script>
+
+    <div class="main">
+        <div class="card mb-3 animated fadeIn" style="">
+            <div class="row no-gutters">
+                <div class="col-md-4">
+                    <img src="chiragg-min.jpg" class="card-img" alt="loading">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h1 class="card-title" style="font-weight: bolder;">Chirag Gomber</h1>
+                        <p class="card-text">SIH 2020 Finalists | Research Intern at National University of Singapore |
+                            Artificial Intelligence and Machine Learning enthusiast | Open Source developer<br><br>
+                            <a href="mailto:chirag.11gomber4@gmail.com?subject=subject"><u>Email:
+                                    chirag.11gomber4@gmail.com</u></a></p>
+                        <p class="card-text logo"><a href="https://www.linkedin.com/in/chiraggomber11/"
+                                class="fab fa-linkedin-in" style="padding: 20px; color: black;"></a><a
+                                href="https://github.com/ArtistBanda" class="fab fa-github"
+                                style="padding: 20px; color: black;"></a><a
+                                href="https://www.hackerrank.com/chirag_11gomber4" class="fab fa-hackerrank"
+                                style="padding: 20px; color: black;"></a></a><a
+                                href="https://www.instagram.com/artistbanda/" class="fab fa-instagram"
+                                style="padding: 20px; color: black;"></a></a></p>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
     </div>
-  </div>
-</div>
-<div class="details">
-    <div class="vl" data-aos="zoom-in">
-        <i class="fas fa-clipboard-list" style="margin-left:20px;"> Expirence</i>
-        <h5 style="margin-left:40px; margin-top: 20px;  font-weight: bolder;">Summer Research Intern</h5>
-        <p class="card-text" style="margin-left:40px;">National University of Singapore<br>Big Data Analysis using Artificial Neural Networks
-            <br>Certified by NUS (National University of Singapore) and Hewlett Packard Enterprise
-            <br>Awarded with scholarship for being in top 20%</p>
+    <div class="details">
+        <div class="vl" data-aos="zoom-in">
+            <i class="fas fa-clipboard-list" style="margin-left:20px;"> Expirence</i>
+            <h5 style="margin-left:40px; margin-top: 20px;  font-weight: bolder;">Summer Research Intern</h5>
+            <p class="card-text" style="margin-left:40px;">National University of Singapore<br>Big Data Analysis using
+                Artificial Neural Networks
+                <br>Certified by NUS (National University of Singapore) and Hewlett Packard Enterprise
+                <br>Awarded with scholarship for being in top 20%</p>
             <h5 style="margin-left:40px; margin-top: 20px;  font-weight: bolder;">Intern</h5>
-        <p class="card-text" style="margin-left:40px;">SRM Centre for Applied Research in Education
-            <br>Coding Practices in eLab (An Auto Evaluation Tool)
-            <br>Automation Scripting and Testing in C Programming</p>
+            <p class="card-text" style="margin-left:40px;">SRM Centre for Applied Research in Education
+                <br>Coding Practices in eLab (An Auto Evaluation Tool)
+                <br>Automation Scripting and Testing in C Programming</p>
+        </div>
+        <div class="vl" data-aos="zoom-in">
+            <i class="fas fa-user-graduate" style="margin-left:20px;"> Education</i>
+            <h5 style="margin-left:40px; margin-top: 20px;  font-weight: bolder;">S.R.M Institute of Science and
+                Technology </h5>
+            <p class="card-text" style="margin-left:40px;">Bachelor of Computer Science and Engineering<br>Current CGPA
+                of 9.85<br>Awarded Scholarship for HSC Merit (95% in PCM)</p>
+        </div>
+        <div class="vl" data-aos="zoom-in">
+            <i class="fas fa-cogs" style="margin-left:20px;"> Projects</i>
+            <h5 style="margin-left:40px; margin-top: 20px;  font-weight: bolder;">American Sign Language Interpreter
+            </h5>
+            <p class="card-text" style="margin-left:40px;"> It translates the corresponding fingerspelling of a letter
+                into their respective english alphabet<br><b>Keywords : </b>Computer vision, American Sign Language,
+                ResNet, Transfer Learning<br><b>Tech Stack : </b>Tensorflow, Keras, Pandas, Numpy, Scikit-Learn
+                matplotlib<br><a href="https://github.com/ArtistBanda/Sign_Language_Interpretation">Project Link</a></p>
+            <h5 style="margin-left:40px; margin-top: 20px;  font-weight: bolder;">Bread and Butter Machine Learning</h5>
+            <p class="card-text" style="margin-left:40px;"> Implementation of machine learning algorithms from
+                scratch.<br><b>Tech Stack : </b>Numpy, Python3, Matplotlib<br><a
+                    href="https://github.com/ArtistBanda/Bread-and-Butter_Machine-Learning">Project Link</a></p>
+            <h5 style="margin-left:40px; margin-top: 20px;  font-weight: bolder;">Health Report Digitisation using OCR
+            </h5>
+            <p class="card-text" style="margin-left:40px;"> Worked on extracting useful data from health reports and
+                prescription into a structured data<br><b>Tech Stack : </b>Google vision, Tesseract, Flask, Pandas,
+                Numpy<br></p>
+        </div>
+        <div class="vl" data-aos="zoom-in">
+            <i class="fas fa-scroll" style="margin-left:20px;"> Certification</i>
+            <ul>
+                <li style="margin-left:40px; margin-top: 5px;  font-weight: normal ;">SIH 2020 Internal winners</li>
+                <li style="margin-left:40px; margin-top: 5px;  font-weight: normal ;">Design and Analysis of Algorithms
+                    | NPTEL | Elite Certificate</li>
+                <li style="margin-left:40px; margin-top: 5px;  font-weight: normal ;">Machine Learning | Coursera |
+                    Stanford University | Andrew Ng</li>
+                <li style="margin-left:40px; margin-top: 5px;  font-weight: normal ;">Neural Networks and Deep Learning
+                    | Coursera | deeplearning.ai</li>
+                <li style="margin-left:40px; margin-top: 5px;  font-weight: normal ;">Improving Deep Neural Networks:
+                    Hyperparameter tuning, Regularization and Optimization | Coursera | deeplearning.ai</li>
+                <li style="margin-left:40px; margin-top: 5px;  font-weight: normal ;">Structuring Machine Learning
+                    Projects | Coursera | deeplearning.ai</li>
+                <li style="margin-left:40px; margin-top: 5px;  font-weight: normal ;">C Programming - Expert Level |
+                    Coding practices in eLab (An Auto Eavaluation Tool) | SRM Centre for Applied Research in Education
+                </li>
+                <li style="margin-left:40px; margin-top: 5px;  font-weight: normal;">Algorithmic Toolbox | Coursera |
+                    UsSanDiego</li>
+            </ul>
+
+        </div>
+        <div class="vl" data-aos="zoom-in" style="margin-bottom: 100px;">
+            <i class="fas fa-cubes" style="margin-left:20px;"> Skills</i>
+            <ul>
+                <li style="margin-left:40px; margin-top: 5px;  font-weight: normal ;">Machine Learning</li>
+                <li style="margin-left:40px; margin-top: 5px;  font-weight: normal ;">Deep Learning</li>
+                <li style="margin-left:40px; margin-top: 5px;  font-weight: normal ;">Neural Networks</li>
+                <li style="margin-left:40px; margin-top: 5px;  font-weight: normal ;">Data Analysis</li>
+                <li style="margin-left:40px; margin-top: 5px;  font-weight: normal ;">Tools and Technologies:<ul
+                        class="a">
+                        <li>Tensorflow</li>
+                        <li>Scikit-Learn</li>
+                    </ul>
+                </li>
+                <li style="margin-left:40px; margin-top: 5px;  font-weight: normal ;">Programming Languages :<ul
+                        class="a">
+                        <li>Python</li>
+                        <li>C</li>
+                        <li>C++</li>
+                    </ul>
+                </li>
+                </li>
+                <li style="margin-left:40px; margin-top: 5px;  font-weight: normal ;">Currently Learning : TensorFlow
+                    2.0.0</li>
+                <li style="margin-left:40px; margin-top: 5px;  font-weight: normal;">Personal Skills: Teamwork,
+                    Innovation, Creativity</li>
+            </ul>
+
+        </div>
     </div>
-    <div class="vl" data-aos="fade-up">
-        <i class="fas fa-user-graduate" style="margin-left:20px;"> Education</i>
-        <h5 style="margin-left:40px; margin-top: 20px;  font-weight: bolder;">S.R.M Institute of Science and Technology </h5>
-        <p class="card-text" style="margin-left:40px;">Bachelor of Computer Science and Engineering<br>Current CGPA of 9.85<br>Awarded Scholarship for HSC Merit (95% in PCM)</p>
-    </div>
-    <div class="vl" data-aos="fade-up">
-        <i class="fas fa-cogs" style="margin-left:20px;"> Projects</i>
-        <h5 style="margin-left:40px; margin-top: 20px;  font-weight: bolder;">American Sign Language Interpreter</h5>
-        <p class="card-text" style="margin-left:40px;"> It translates the corresponding fingerspelling of a letter into their respective english alphabet<br><b>Keywords : </b>Computer vision, American Sign Language, ResNet, Transfer Learning<br><b>Tech Stack : </b>Tensorflow, Keras,  Pandas, Numpy, Scikit-Learn matplotlib<br><a href="https://github.com/ArtistBanda/Sign_Language_Interpretation">Project Link</a></p>
-        <h5 style="margin-left:40px; margin-top: 20px;  font-weight: bolder;">Bread and Butter Machine Learning</h5>
-        <p class="card-text" style="margin-left:40px;"> Implementation of machine learning algorithms from scratch.<br><b>Tech Stack : </b>Numpy, Python3, Matplotli0b<br><a href="https://github.com/ArtistBanda/Bread-and-Butter_Machine-Learning">Project Link</a></p>
-        <h5 style="margin-left:40px; margin-top: 20px;  font-weight: bolder;">Health Report Digitisation using OCR</h5>
-        <p class="card-text" style="margin-left:40px;"> Worked on extracting useful data from  health reports and prescription into a structured data<br><b>Tech Stack : </b>Google vision, Tesseract, Flask, Pandas, Numpy<br></p>
-    </div>
-    <div class="vl" data-aos="fade-up">
-        <i class="fas fa-scroll" style="margin-left:20px;"> Certification</i>
-        <ul>
-            <li style="margin-left:40px; margin-top: 5px;  font-weight: normal ;">SIH 2020 Internal winners</li>
-        <li style="margin-left:40px; margin-top: 5px;  font-weight: normal ;">Design and Analysis of Algorithms | NPTEL | Elite Certificate</li>
-        <li style="margin-left:40px; margin-top: 5px;  font-weight: normal ;">Machine Learning | Coursera | Stanford University | Andrew Ng</li>
-        <li style="margin-left:40px; margin-top: 5px;  font-weight: normal ;">Neural Networks and Deep Learning | Coursera | deeplearning.ai</li>
-        <li style="margin-left:40px; margin-top: 5px;  font-weight: normal ;">Improving Deep Neural Networks: Hyperparameter tuning, Regularization and Optimization | Coursera | deeplearning.ai</li>
-        <li style="margin-left:40px; margin-top: 5px;  font-weight: normal ;">Structuring Machine Learning Projects | Coursera | deeplearning.ai</li>
-        <li style="margin-left:40px; margin-top: 5px;  font-weight: normal ;">C Programming - Expert Level | Coding practices in eLab (An Auto Eavaluation Tool) | SRM Centre for Applied Research in Education</li>
-        <li style="margin-left:40px; margin-top: 5px;  font-weight: normal;">Algorithmic Toolbox | Coursera | UsSanDiego</li>
-        </ul>
-        
-    </div>
-    <div class="vl" data-aos="fade-up" style="margin-bottom: 100px;">
-        <i class="fas fa-cubes" style="margin-left:20px;"> Skills</i>
-        <ul>
-            <li style="margin-left:40px; margin-top: 5px;  font-weight: normal ;">Machine Learning</li>
-        <li style="margin-left:40px; margin-top: 5px;  font-weight: normal ;">Deep Learning</li>
-        <li style="margin-left:40px; margin-top: 5px;  font-weight: normal ;">Neural Networks</li>
-        <li style="margin-left:40px; margin-top: 5px;  font-weight: normal ;">Data Analysis</li>
-        <li style="margin-left:40px; margin-top: 5px;  font-weight: normal ;">Tools and Technologies:<ul class="a">
-            <li>Tensorflow</li>
-            <li>Scikit-Learn</li>
-          </ul></li>
-        <li style="margin-left:40px; margin-top: 5px;  font-weight: normal ;">Programming Languages :<ul class="a">
-            <li>Python</li>
-            <li>C</li>
-            <li>C++</li>
-          </ul></li></li>
-        <li style="margin-left:40px; margin-top: 5px;  font-weight: normal ;">Currently Learning :  TensorFlow 2.0.0</li>
-        <li style="margin-left:40px; margin-top: 5px;  font-weight: normal;">Personal Skills: Teamwork, Innovation, Creativity</li>
-        </ul>
-       
-    </div>
-</div>
 
 </body>
+
 </html>
